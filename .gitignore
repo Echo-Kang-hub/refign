@@ -22,3 +22,5 @@ lightning_logs/
 
 # pretrained models
 pretrained_models/
+
+path/

@@ -225,9 +225,9 @@ The following pretrained weights are required for Refign. Save them to `./pretra
 
 1. UAWarpC checkpoint, download it [here](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/626140/uawarpc_megadepth.ckpt).
 
-2. ImageNet-pretrained MiT weights (`mit_b5.pth`), download them from the [SegFormer repository](https://github.com/NVlabs/SegFormer).
+2. ImageNet-pretrained MiT weights (`mit_b5.pth`), download them from the [SegFormer repository](https://github.com/NVlabs/SegFormer).（原来的已失效，修订为：https://huggingface.co/nvidia/mit-b5/tree/main，下载pytorch_model.bin，重命名）
 
-3. Cityscapes-pretrained SegFormer weights (`segformer.b5.1024x1024.city.160k.pth`), download them from the [SegFormer repository](https://github.com/NVlabs/SegFormer).
+3. Cityscapes-pretrained SegFormer weights (`segformer.b5.1024x1024.city.160k.pth`), download them from the [SegFormer repository](https://github.com/NVlabs/SegFormer).（原来的已失效，修订为：https://huggingface.co/nvidia/segformer-b5-finetuned-cityscapes-1024-1024/tree/main，下载pytorch_model.bin，重命名）
 
 
 ### Trained Models and Results
